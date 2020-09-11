@@ -31,7 +31,7 @@
                         <span class="form__error">Недопустимый формат номера</span>
                     </div>
                     <div class="form__field">
-                        <input class="form__input" type="text" name="url" pattern="" placeholder="Ваш сайт" required/>
+                        <input class="form__input" type="text" name="url" pattern='https?:\/\/(www\.)?((\d{1,}\.\d{1,}\.\d{1,}\.\d{1,})|(\w+(-\w+)*\.[rucom]{2,}))(:[1-9]\d{1,4})*\/?(\w+\/?)*#?' placeholder="Ваш сайт" required/>
                         <span class="form__error">URL в формате: http://mysite.ru</span>
                     </div>
                     <button class="form__button" type="text">Отправить</button>
@@ -41,5 +41,3 @@
     </main>     
 </body>
 </html>
-
-<!-- trololo-->
